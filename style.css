@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+/*Nav Header*/
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.nav1{
+    display: flex;
+    column-gap: 20px;
+    padding-left: 30px;
+
+}
+.nav2{
+    display: flex;
+    column-gap: 20px;
+    padding-right: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbarmenutoggle{
+    display: none;
+    cursor: pointer;
+}
+/*Side Nav Bar*/
+.sidenav{
+    background-color: white;
+    text-align: center;
+    display: none;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    transition: 2s;
+}
+.sidenavbar a{
+    text-decoration: none;
+    color: black;
+}
+.sidenavbar p{
+    margin-bottom: 20px;
+}
+.sidebarmenutoggle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+/*header*/
+#section{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.header1{
+    text-align: center;
+}
+.header1 h3{
+    padding-top: 15px;
+}
+/*About Me*/
+.aboutmecontainer{
+    margin: 20px;
+}
+.aboutmecontainer h2{
+    text-align: center;
+}
+.aboutme{
+    padding-top: 20px;
+    display: flex;
+}
+.aboutimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+.aboutpara{
+    margin-left: 30px;
+    margin-top: 35px;
+}
+/*Skills*/
+.skilltitle{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+.skillcontainer{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.skillcontainer h4{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.skillcontainer div{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: 20px;
+    border-radius: 10px;
+}
+/*Internship*/
+#section3{
+    margin: 20px;
+}
+.internshiptitle {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+.internshipcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.internheader{
+    display: flex;
+    flex-wrap: wrap;
+}
+.internheader h4{
+    padding-top: 15px;
+}
+.date{
+    padding-top: 15px;
+}
+.internheader img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.internpara{
+    text-align: justify;
+    padding-top: 5px;
+}
+.interncertificate{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.interncertificate button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(53, 53, 105);
+    color: white;
+    cursor: pointer;
+}
+/*Projects*/
+#section4{
+    margin: 20px;
+}
+.projecttitle{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+.project1 h4{
+    padding-top: 20px;
+}
+.project1 p{
+    padding-top: 10px;
+    text-align: justify;
+}
+.projcetbutton{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.project1 button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(53, 53, 105);
+    color: white;
+    cursor: pointer;
+}
+/*Certificate*/
+#section5{
+    margin: 20px;
+}
+.certificatetitle{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+.certificate1{
+    margin: 20px;
+}
+.certificate1 li{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+/*Contact*/
+#section6{
+    padding: 20px;
+    background-color: rgb(53, 53, 105);
+    color: white;
+}
+.contacttitle{
+    text-align: center;
+}
+.contactcontainer{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contactcontainer1{
+    align-items: center;
+    column-gap: 7px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactcontainer2{
+    align-items: center;
+    column-gap: 7px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactcontainer3{
+    align-items: center;
+    column-gap: 7px;
+    display: flex;
+    flex-wrap: wrap     ;
+}
+.contactcontainer3 a{
+    text-decoration: none;
+    color: white;
+}
+.bottom{
+    text-align: center;
+    padding-top: 30px;
+    color: whitesmoke;
+}
+@media screen and (max-width: 950px) {
+    .navbarmenutoggle{
+        display: block;
+    }
+    .nav1{
+        display: none;
+    }
+    .nav2{
+        display: none;
+    }
+    #section{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .aboutimg{
+        width: 150px;
+        height: 150px;
+    }
+    .subimgheader{
+        top: 75px;
+    }
+    .aboutme{
+        display: block;
+    }
+    .aboutpara{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .aboutimgcon{
+        text-align: center;
+    }
+    .date{
+        display: none;
+    }
+    .contactcontainer{
+        flex-direction: column;
+    }
+    .contactcontainer1{
+        justify-content: center;
+    }
+    .contactcontainer2{
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .contactcontainer3{
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+ }
